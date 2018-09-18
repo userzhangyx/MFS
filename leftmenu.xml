@@ -1,0 +1,202 @@
+﻿<XtraSerializer version="1.0" application="AccordionControl">
+  <property name="#LayoutVersion" />
+  <property name="ItemHeight">0</property>
+  <property name="GroupHeight">0</property>
+  <property name="ExpandElementMode">SingleItem</property>
+  <property name="AnimationType">Default</property>
+  <property name="Elements" iskey="true" value="3">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="#LayoutVersion" />
+      <property name="Style">Group</property>
+      <property name="ControlFooterAlignment">Near</property>
+      <property name="HeaderIndent">-1</property>
+      <property name="HeaderVisible">true</property>
+      <property name="Expanded">true</property>
+      <property name="Visible">true</property>
+      <property name="Text">工作台</property>
+      <property name="Name">accordionControlElement2</property>
+      <property name="Height">0</property>
+      <property name="HeaderTemplate" iskey="true" value="4">
+        <property name="Item1" isnull="true" iskey="true" />
+        <property name="Item2" isnull="true" iskey="true" />
+        <property name="Item3" isnull="true" iskey="true" />
+        <property name="Item4" isnull="true" iskey="true" />
+      </property>
+      <property name="Elements" iskey="true" value="3">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">主控制台</property>
+          <property name="Name">accordionControlElement3</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">交接核账</property>
+          <property name="Name">accordionControlElement5</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">信号列表</property>
+          <property name="Name">accordionControlElement9</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="#LayoutVersion" />
+      <property name="Style">Group</property>
+      <property name="ControlFooterAlignment">Near</property>
+      <property name="HeaderIndent">-1</property>
+      <property name="HeaderVisible">true</property>
+      <property name="Expanded">true</property>
+      <property name="Visible">true</property>
+      <property name="Text">交易数据</property>
+      <property name="Name">accordionControlElement6</property>
+      <property name="Height">0</property>
+      <property name="HeaderTemplate" iskey="true" value="4">
+        <property name="Item1" isnull="true" iskey="true" />
+        <property name="Item2" isnull="true" iskey="true" />
+        <property name="Item3" isnull="true" iskey="true" />
+        <property name="Item4" isnull="true" iskey="true" />
+      </property>
+      <property name="Elements" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">每日数据</property>
+          <property name="Name">accordionControlElement7</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">每月数据</property>
+          <property name="Name">accordionControlElement8</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="#LayoutVersion" />
+      <property name="Style">Group</property>
+      <property name="ControlFooterAlignment">Near</property>
+      <property name="HeaderIndent">-1</property>
+      <property name="HeaderVisible">true</property>
+      <property name="Expanded">true</property>
+      <property name="Visible">true</property>
+      <property name="Text">数据日志</property>
+      <property name="Name">accordionControlElement10</property>
+      <property name="Height">0</property>
+      <property name="HeaderTemplate" iskey="true" value="4">
+        <property name="Item1" isnull="true" iskey="true" />
+        <property name="Item2" isnull="true" iskey="true" />
+        <property name="Item3" isnull="true" iskey="true" />
+        <property name="Item4" isnull="true" iskey="true" />
+      </property>
+      <property name="Elements" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">操作日志</property>
+          <property name="Name">accordionControlElement11</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="#LayoutVersion" />
+          <property name="Style">Item</property>
+          <property name="ControlFooterAlignment">Near</property>
+          <property name="HeaderIndent">-1</property>
+          <property name="HeaderVisible">true</property>
+          <property name="Expanded">false</property>
+          <property name="Visible">true</property>
+          <property name="Text">系统日志</property>
+          <property name="Name">accordionControlElement12</property>
+          <property name="Height">0</property>
+          <property name="HeaderTemplate" iskey="true" value="4">
+            <property name="Item1" isnull="true" iskey="true" />
+            <property name="Item2" isnull="true" iskey="true" />
+            <property name="Item3" isnull="true" iskey="true" />
+            <property name="Item4" isnull="true" iskey="true" />
+          </property>
+          <property name="Elements" iskey="true" value="0" />
+        </property>
+      </property>
+    </property>
+  </property>
+</XtraSerializer>
