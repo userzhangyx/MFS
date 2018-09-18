@@ -15,24 +15,32 @@ namespace DXApplication1
 {
     public partial class Form1 : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
+        string UserName = null;
        public Form1()
         {
             InitializeComponent();
-            barStaticItem1.Caption = "操作员：周伟伟";
-            barStaticItem1.Width = 200;
-            BetMain ftmBM = new BetMain();
-            fluentDesignFormContainer1.Controls.Add(ftmBM);
-            ftmBM.Dock = DockStyle.Fill;
-           
+            FrmLogin frm = new FrmLogin();
+            frm.ShowDialog();
+            if (!string.IsNullOrWhiteSpace(frm.UserName))
+            {
+                barStaticItem1.Caption = "操作员：" + frm.UserName;
+                barStaticItem1.Width = 200;
+                BetMain ftmBM = new BetMain();
+                fluentDesignFormContainer1.Controls.Add(ftmBM);
+                ftmBM.Dock = DockStyle.Fill;
+            }
         }
 
         private void accordionControlElement3_Click(object sender, EventArgs e)
         {
-            barStaticItem1.Caption = "操作员：周伟伟";
-            barStaticItem1.Width = 200;
-            BetMain ftmBM = new BetMain();
-            fluentDesignFormContainer1.Controls.Add(ftmBM);
-            ftmBM.Dock = DockStyle.Fill;
+            if (!string.IsNullOrWhiteSpace(UserName))
+            {
+                barStaticItem1.Caption = "操作员：" + UserName;
+                barStaticItem1.Width = 200;
+                BetMain ftmBM = new BetMain();
+                fluentDesignFormContainer1.Controls.Add(ftmBM);
+                ftmBM.Dock = DockStyle.Fill;
+            }
         }
 
        
