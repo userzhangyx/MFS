@@ -395,3 +395,4 @@ D:\work\Git\DXApplication1\obj\x64\Debug\MFS.csproj.CopyComplete
 D:\work\Git\DXApplication1\obj\x64\Debug\MFS.exe
 D:\work\Git\DXApplication1\obj\x64\Debug\MFS.pdb
 D:\work\Git\DXApplication1\obj\x64\Debug\DXApplication1.FrmLogin.resources
+D:\work\Git\DXApplication1\obj\x64\Debug\MFS.csprojAssemblyReference.cache

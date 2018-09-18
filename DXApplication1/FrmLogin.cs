@@ -23,6 +23,16 @@ namespace DXApplication1
 
         private void Login_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(User.Text))
+            {
+                MessageBox.Show("用户名未填写");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(Password.Text))
+            {
+                MessageBox.Show("密码未填写");
+                return;
+            }
             dsLogin = new DataSet();
             MySqlConnection conn = new MySqlConnection(MFS.Common.ConnString);
             conn.Open();

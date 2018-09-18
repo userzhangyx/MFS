@@ -80,6 +80,8 @@
             // 
             // Login
             // 
+            this.Login.Appearance.Font = new System.Drawing.Font("等线", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Login.Appearance.Options.UseFont = true;
             this.Login.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Login.ImageOptions.Image")));
             this.Login.Location = new System.Drawing.Point(40, 125);
             this.Login.Name = "Login";
@@ -90,6 +92,8 @@
             // 
             // Cancel
             // 
+            this.Cancel.Appearance.Font = new System.Drawing.Font("等线", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Cancel.Appearance.Options.UseFont = true;
             this.Cancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Cancel.ImageOptions.Image")));
             this.Cancel.Location = new System.Drawing.Point(192, 125);
             this.Cancel.Name = "Cancel";
